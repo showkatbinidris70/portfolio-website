@@ -1,52 +1,152 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 .container {
-    background-color: #0a192f;
-    width: 100%;
-    min-height: 700px;
-  }
-  .nav-bar{
-    width: 100%;
-    min-height: 1.5rem;
-    display: flex;
-  }
+  background-color: #0a192f;
+  width: 100%;
+  min-height: 700px;
+}
+.nav-bar {
+  width: 100%;
+  min-height: 1.5rem;
+  display: flex;
+  padding-top: 1rem;
+}
 
-  .logo{
-    color: #ffffff;
-    margin: 15px;
-  }
-  .space{
-    color: #ffffff;
-    margin: 15px;
-    width: 50%;
-  }
-  .about{
-    color: #ffffff;
-    margin: 15px;
-  }
-  .experience{
-    color: #ffffff;
-    margin: 15px;
-  }
-  .work{
-    color: #ffffff;
-    margin: 15px;
-  }
-  .contact{
-    color: #ffffff;
-    margin: 15px;
-  }
-  .resume{
-    color: #ffffff;
-    margin: 15px;
-  }
-  .address-me{
-    color: aqua;
-  }
-  .name{
-    color: #ffffff;
-  }
-  .slogan{
-    color: #ffffff;
-  }
+.logo img {
+  color: #ffffff;
+  margin-left: 20px;
+  width: 75px;
+  height: 75px;
+  background-color: #0a192f;
+}
+.space {
+  color: #ffffff;
+  margin: 15px;
+  width: 50%;
+}
+.about {
+  color: #ffffff;
+  margin: 10px;
+}
+.experience {
+  color: #ffffff;
+  margin: 10px;
+}
+.work {
+  color: #ffffff;
+  margin: 10px;
+}
+.contact {
+  color: #ffffff;
+  margin: 10px;
+}
+.resume {
+  color: #ffffff;
+  margin: 10px;
+}
+.resume button {
+  border-color: aqua;
+  border-radius: 5px;
+  background-color: #0a192f;
+  color: aqua;
+  padding: 6px 8px 6px 8px;
+}
+.resume button a {
+  text-decoration: none;
+  color: aqua;
+}
+.address-me {
+  color: aqua;
+}
+.name {
+  color: #ffffff;
+}
+.slogan {
+  color: #ffffff;
+}
+.big-heading {
+  margin: 0px;
+  font-size: 2rem;
+  color: #ccd6f6;
+}
+.slogan {
+  margin: 0px;
+  font-size: 2rem;
+  color: #8892b0;
+}
+.hero-header {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 8rem;
+}
+.details-1 {
+  width: 50%;
+  margin-top: 1.5rem;
+  color: #8892b0;
+  font-size: 1.2rem;
+}
+.details {
+  width: 100%;
+  margin-top: 1.5rem;
+  color: #8892b0;
+  font-size: 1.2rem;
+}
+.button button {
+  margin-top: 1.5rem;
+  border-color: aqua;
+  border-radius: 5px;
+  background-color: #0a192f;
+  color: aqua;
+  padding: 1rem;
+}
+.me {
+  display: flex;
+  margin-top: 8rem;
+  width: 100%;
+}
+.about-me {
+  width: 50%;
+  margin-left: 15%;
+  min-height: 15rem;
+}
+.me-photo {
+  width: 50%;
+  margin-right: 15%;
+  min-height: 15rem;
+}
+.about-me-1 {
+  display: flex;
+  width: 100%;
+}
+.about-me-left {
+  width: 50%;
+}
+.about-me-right {
+  width: 60%;
+  margin-top: 1rem;
+}
+.subjects {
+  width: 100%;
+  display: flex;
+  margin-top: 0.5rem;
+}
+.subjects-left {
+  margin-right: 1rem;
+  color: #8892b0;
+}
+.subjects-right {
+  margin-left: 1rem;
+  color: #8892b0;
+}
+.me-photo img {
+  width: 400px;
+  height: 400px;
+  border-radius: 5px;
+  margin: 2rem;
+}
+.footer {
+  padding: 1rem;
+  color: #8892b0;
+  text-align: center;
+}
