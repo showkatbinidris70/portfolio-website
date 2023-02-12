@@ -175,11 +175,122 @@
   margin       : 2rem;
 }
 
-.footer {
-  padding   : 1rem;
-  color     : #8892b0;
-  text-align: center;
+/* work-experience section start */
+.work-experience {
+  width        : 50%;
+  min-height   : 5rem;
+  margin       : auto;
+  margin-top   : 10rem;
+  margin-bottom: 5rem;
 }
+
+.work-hr {
+  display: flex;
+  width  : 100%;
+
+}
+
+.works {
+  width: 40%;
+  color: #ccd6f6;
+}
+
+.hr {
+  width     : 60%;
+  margin-top: 1rem;
+  color     : #ccd6f6;
+}
+
+.company {
+  width      : 90%;
+  display    : flex;
+  padding-top: 1.5rem;
+  margin     : auto;
+}
+
+.company-name {
+  width    : 50%;
+  color    : aqua;
+  font-size: 1.2rem;
+}
+
+.designation {
+  width    : 50%;
+  color    : #ccd6f6;
+  font-size: 1.2rem;
+}
+
+/* work-experience section end */
+
+/* Work in project start*/
+.project-work {
+  width        : 70%;
+  margin       : auto;
+  margin-bottom: 5rem;
+  margin-top   : 10rem;
+}
+
+.projectes {
+  display: flex;
+  width  : 100%;
+
+}
+
+.project-1 {
+  width           : 33%;
+  background-color: #112240;
+  min-height      : 20rem;
+  margin          : 5px;
+  border-radius   : 5px;
+  box-shadow      : #0a192f;
+  padding         : 15px;
+}
+
+.project-top img {
+  height       : 50px;
+  width        : 50px;
+  margin-bottom: 1rem;
+}
+
+.project-1 .project-title {
+  color        : #ccd6f6;
+  font-size    : 1.8rem;
+  margin-bottom: 1rem;
+  font-weight  : 400;
+}
+
+.project-dec p {
+  color      : #8892b0;
+  font-size  : 1.2rem;
+  margin-top : 2rem;
+  font-weight: 400;
+}
+
+.project-tech-list h3 {
+  color      : #8892b0;
+  font-size  : 1rem;
+  margin-top : 3rem;
+  font-weight: 400;
+}
+
+/* .project-2 {
+  width           : 33%;
+  background-color: #112240;
+  min-height      : 25rem;
+  margin          : 5px;
+  border-radius   : 5px;
+}
+
+.project-3 {
+  width           : 33%;
+  background-color: #112240;
+  min-height      : 25rem;
+  margin          : 5px;
+  border-radius   : 5px;
+} */
+
+
+/* Work in Project end */
 
 /* Contact Section Start*/
 .contact-section {
@@ -199,6 +310,7 @@
   font-size  : 4rem;
   font-weight: 600;
   color      : #ccd6f6;
+  margin-top : 0.5rem;
 }
 
 section button {
@@ -212,4 +324,56 @@ section button {
   margin-bottom   : 10rem;
 }
 
+section button a {
+  text-decoration: none;
+  color          : aqua;
+}
+
 /* Contact Section end*/
+
+/* Footer section start */
+.footer {
+  color     : #8892b0;
+  width     : 100%;
+  margin    : auto;
+  display   : flex;
+  min-height: 4rem;
+}
+
+.copy-right {
+  width     : 50%;
+  text-align: right;
+}
+
+.social-link {
+  width      : 50%;
+  text-align : center;
+  display    : flex;
+  margin-left: 1rem;
+}
+
+.fb {
+  margin-left: 1rem;
+}
+
+.fb a {
+  color: #8892b0;
+}
+
+.github {
+  margin-left: 1rem;
+}
+
+.github a {
+  color: #8892b0;
+}
+
+.linkedIn {
+  margin-left: 1rem;
+}
+
+.linkedIn a {
+  color: #8892b0;
+}
+
+/* Footer section end */
