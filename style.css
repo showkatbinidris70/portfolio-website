@@ -33,15 +33,29 @@
   color: #ffffff;
   margin: 10px;
 }
+.about a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0a192f;
+}
 
 .experience {
   color: #ffffff;
   margin: 10px;
 }
-
+.experience a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0a192f;
+}
 .work {
   color: #ffffff;
   margin: 10px;
+}
+.work a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0a192f;
 }
 
 .contact {
@@ -332,6 +346,11 @@ section button {
 section button a {
   text-decoration: none;
   color: aqua;
+}
+.contact button a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #0a192f;
 }
 
 /* Contact Section end*/
